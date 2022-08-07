@@ -1,5 +1,11 @@
 /*==================
-	CSS RESET
+	GOOGLE FONTS
+==================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300&display=swap');
+
+/*==================
+	CSS RESET & STANDARD 
 ==================*/
 
 * {
@@ -12,12 +18,45 @@
 
 body {
 	font-size: 12px;
+  font-family: 'Albert Sans', sans-serif;
 }
 
 .fixed-width {
-	width:  940px;
+	width:  480px;
 }
 
 .flex-container {
 	display: flex;
+}
+
+/*==================
+	HEADER
+==================*/
+header {
+  margin: 0 auto;
+}
+
+.header-image-container {
+  border: 1px solid red;
+  position: relative;
+}
+
+.header-image-container > img {
+  width: 100%;
+}
+
+.header-image-container > h1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+}
+
+.header-about-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.header-about-container > p > i {
+  margin-right: 16px;
 }
