@@ -1,0 +1,23 @@
+/*==================
+	CSS RESET
+==================*/
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+      
+}
+
+body {
+	font-size: 12px;
+}
+
+.fixed-width {
+	width:  940px;
+}
+
+.flex-container {
+	display: flex;
+}
