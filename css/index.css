@@ -67,3 +67,16 @@ header {
 /*==================
 	MAIN > SKILLS
 ==================*/
+
+.skills-container {
+  margin: 0 auto;
+}
+
+.skill-bar-container {
+  background-color: grey;
+  width: 100%;
+}
+
+.skill-bar {
+  text-align: center;
+}
