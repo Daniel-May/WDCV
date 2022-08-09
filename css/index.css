@@ -27,7 +27,7 @@ body {
 
 .border-wrap {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 .flex-container {
@@ -93,4 +93,12 @@ header {
   text-align: center;
   background-color: lime;
   border-radius: 25px 25px;
+}
+
+/*==================
+	WORK EXPERIENCE 
+==================*/
+
+.work-experience-container {
+  padding: 20px;
 }
