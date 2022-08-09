@@ -91,7 +91,8 @@ header {
 
 .skill-bar {
   text-align: center;
-  background-color: lime;
+  background-color: teal;
+  color: white;
   border-radius: 25px 25px;
 }
 
@@ -103,3 +104,68 @@ header {
   padding: 20px;
 }
 
+.work > h5, h6 {
+  font-weight: bold !important;
+  font-size: 16px;
+}
+
+.work > h6 > i {
+  padding-right: 10px;
+}
+
+.current {
+  background-color: teal;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+/*==================
+	EDUCATION 
+==================*/
+
+.education-container {
+  padding: 20px;
+}
+
+.work > span > i {
+  padding-right: 5px;
+}
+
+.work > span > a{
+  text-decoration: none;
+  color: white
+}
+
+.education-cert-link {
+  background-color: teal;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*==================
+	FOOTER 
+==================*/
+
+footer {
+  width:100%;
+  text-align: center;
+  background-color: teal;
+  font-size: 20px;
+  padding: 100px;
+}
+
+footer > a {
+  text-decoration: none;
+  color: white;
+}
+
+footer > a:hover {
+  text-decoration: none !important;
+  color: white;
+}
+
+footer > a > span > i {
+  padding: 5px;
+}
